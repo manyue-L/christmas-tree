@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
 
   return {
     // 👇 GitHub Pages 部署最重要的配置
-    base: '/christmas-tree/',
+    base: './',  // 这行很重要
 
     server: {
       port: 3010,
