@@ -6,8 +6,8 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // 👇 GitHub Pages 部署最重要的配置
-    base: './',  // 这行很重要
+
+    base: './',  
 
     server: {
       port: 3010,
